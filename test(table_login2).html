@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 글 제목 -->
+    <header>
+        <h1>글 작성하기</h1>
+    </header>
+
+    <!-- 메뉴 -->
+    <nav>
+        <ul>
+            <li><a href="#">메뉴 - 1</a></li>
+            <li><a href="#">메뉴 - 2</a></li>
+            <li><a href="#">메뉴 - 3</a></li>
+        </ul>
+    </nav>
+
+    <!-- 본문 -->
+    <div>
+        <table>
+            <tr>
+                <td><label for="name" id="name">작성자</label></td>
+                <td><input type="text" id="name"></td>
+            </tr>
+            <tr>
+                <td><label for="id" id="id">아이디</label></td>
+                <td><input type="text" id="id"></td>
+            </tr>
+            <tr>
+                <td><label for="mail" id="mail">이메일</label></td>
+                <td><input type="text" id="mail">
+                @
+                <input type="text" id="mail"></td>
+            </tr>
+            <tr>
+                <td><label for="birth_yy"></label>생년월일</td>
+                <td><input type="text" id="birth_yy" placeholder="년(4자)">
+                    <select id="birty_mm">
+                        <option>월</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="1`">11</option>
+                        <option value="11">12</option>
+                    </select>
+                    <input type="text" id="birth_dd" placeholder="일">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="phone">휴대폰</label></td>
+                <td>
+                    <select id="phone">
+                        <option value="010">010</option>
+                        <option value="011">011</option>
+                        <option value="017">017</option>
+                        <option value="018">018</option>
+                        <option value="019">019</option>
+                    </select>
+                    -
+                    <input type="text" id="phone">
+                    -
+                    <input type="text" id="phone">
+            </tr>
+            <tr>
+                <td>성별</td>
+                <td>
+                    <input type="radio" id="man" name="gender" value="m">
+                    <label for="man">남자</label>
+                    <input type="radio" id="woman" name="gender" value="w">
+                    <label for="woman">여자</label>
+                </td>
+            </tr>
+            <tr>
+                <td>글제목</td>
+                <td><input type="text" id="title"></td>
+            </tr>
+            <tr>
+                <td>내용</td>
+                <td><input type="text" id="내용" style="width:300px;height:200px;font-size:30px;"></td>
+            </tr>
+            <tr>
+                <td><input type="submit"></td>
+            </tr>
+        </table>
+        <!-- 푸터 -->
+        <br>
+        <footer>HTML5 Programming 게시판</footer>
+    </div>
+</body>
+</html>
